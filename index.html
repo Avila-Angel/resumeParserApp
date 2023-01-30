@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop or Browse: File Upload</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+  <div class="word-styling">
+        <h1 class="title">
+            WELCOME! ARE YOU LOOKING FOR NEW QUALIFIED CONDIDATES FOR YOUR ROLES?   
+        </h1>
+        <p class="description">
+            TRY OUT OUR NEW RESUME PARSER APP TO FIND QUALIFIED CANDIDATES 
+            TO FILL YOUR ROLES. JUST INPUT ANY KEYWORDS YOU'RE LOOKING FOR 
+            IN OUR SEARCH BAR THAT FILTERS THROUGH UPLOADED RESUMES AND WE'LL
+            PROVIDE YOU A LIST OF POTENTIAL INDVIDUALS YOU'D MIGHT WANT 
+            TO CONSIDER FOR YOUR OPEN ROLES.
+        </p>
+  </div>
+
+  <div class="search-container">
+    <input class="search-bar" placeholder="Type keywords here...">
+    <button class="search-btn">Search</button>
+  </div>
+
+  <div class="resume-area">
+    <header id="resume-areaTitle">Resumes: </header>
+  </div>
+
+  <div class="drag-area">
+    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+    <header>Drag & Drop to Upload File</header>
+    <span>OR</span>
+    <button id="browseButton">Browse File</button>
+    <input type="file" hidden>
+  </div>
+
+  <div>
+    <button class="upload-btn">Upload</button>
+  </div>
+
+  <div id="icons" >
+        <a href="https://www.linkedin.com/in/avila-angel/" target="_blank">
+            <img src="icons/linkedin_icon.png" alt="LinkedIn Icon" width="50px"height="50px">
+        </a>
+        <a href="https://github.com/Avila-Angel" target="_blank">
+            <img src="icons/github_icon.png" alt="Github Icon" width="50px"height="50px">
+        </a>
+        <a href="mailto:angelavila.swe@gmail.com" target="_blank">
+            <img src="icons/email_icon.png" alt="Email Icon" width="50px"height="50px">
+        </a>
+    </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
