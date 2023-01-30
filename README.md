@@ -33,4 +33,5 @@ upload their resume to a firebase database, which can then be retreived when a u
 * Upload Button - a functional button that pushes the data stored within the container (your resume) to the database, where it is stored for later retreival
 * Social Icons - functional icons that when clicked on, opens a new tab that allows users to see my person LinkedIn page, Github page, and the opportunity to email me
 	
-## Screenshots
+## Video Demonstration
+![Resume Parser Video](resumeParser.gif)
