@@ -1,4 +1,36 @@
+// Connect to firebase database 
+// Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+//const { initializeApp } = require('firebase/app');
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDvs1f8HLWlpQPzIcqSy7HR18_c9wTC25I",
+  authDomain: "resumeparserapp.firebaseapp.com",
+  projectId: "resumeparserapp",
+  storageBucket: "resumeparserapp.appspot.com",
+  messagingSenderId: "1008256925353",
+  appId: "1:1008256925353:web:b827eba762aaceb4bcb3b8"
+};
 
+// Initialize Firebase
+//const app = initializeApp(firebaseConfig);
+
+// import firebase functions
+// getDatabase - gets database
+// set - inserts data into database
+// get - gets data from database
+// update - updates data into database
+// remove - removes data in database
+// ref - gets specific reference in database or put specific data in with a specific reference
+// child - allows to go within folders or retreive data within parent items 
+
+
+/*import {getDatabase, set, get, update, remove, ref, child}
+from "https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"
+
+const db = getDatabase; // gets database*/
 
 
 //selecting all required elements
@@ -61,3 +93,10 @@ function showFile() {
     }
   }
 
+function sendToDatabase() { // use firebase functions here 
+    console.log("here")
+}
+
+const uploadBtn = document.querySelector(".upload-btn")
+
+uploadBtn.addEventListener("click", sendToDatabase)
